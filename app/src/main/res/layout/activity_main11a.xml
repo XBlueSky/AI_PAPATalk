@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bluesky.ai.Main11aActivity"
+    android:background="#baf6dac4"
+    android:animateLayoutChanges="true">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+        android:src="@drawable/loop"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Text"
+        android:id="@+id/age"
+        android:textSize="25dp"
+        android:layout_marginTop="24dp"
+        android:textStyle="italic"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Text"
+        android:id="@+id/height"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:layout_alignTop="@+id/age"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Your Target - - - -"
+        android:id="@+id/textView15"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="fit girl"
+        android:id="@+id/textView16"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:layout_alignBottom="@+id/height"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/a1"
+        android:layout_marginTop="24dp"
+        android:clickable="true"
+        android:onClick="a1click"
+        android:textSize="20dp"
+        android:layout_below="@+id/age"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/a2"
+        android:visibility="visible"
+        android:onClick="a2click"
+        android:clickable="true"
+        android:textSize="20dp"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/a1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/a3"
+        android:clickable="true"
+        android:onClick="a1click"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/age"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/a4"
+        android:clickable="true"
+        android:onClick="a1click"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/a2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO CHATROOM"
+        android:id="@+id/home"
+        android:textStyle="bold|italic"
+        android:textColor="#5b4d4d"
+        android:background="#e6c1c1"
+        android:textSize="15dp"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="48dp"
+        android:visibility="invisible" />
+</RelativeLayout>
